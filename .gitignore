@@ -1,0 +1,11 @@
+# Ignorar archivos de notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignorar notebooks en el directorio notebooks/ si no quieres subir ninguno
+notebooks/*.ipynb
+
+# Ignorar archivos de notebooks ocultos o temporales
+*.ipynb~
+
+# Si usas Jupyter con extensiones, también puedes ignorar:
+.jupyter/
