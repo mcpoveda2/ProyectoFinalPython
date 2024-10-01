@@ -45,7 +45,7 @@ Como resultado, el modelo mostraba un rendimiento aparentemente muy alto, con un
 
 En este repositorio encontrarán ambas versiones. 
 
-El algoritmo que decidimos utilizar fue el de Regresión Logística, ya que nos daba las mejores métricas de precisión y recall.
+El algoritmo que decidimos utilizar fue el de Regresión Logística, ya que nos daba las mejores métricas de precisión y recall, versus los otros algoritmos evaluados como KNN, decision tree y SVC. 
 
 ## Authors
 
