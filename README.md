@@ -12,7 +12,7 @@ Nuestra variable target era "Churn Label" con un tipo de dato booleano "Yes" or 
 
 Para el pre procesamiento de datos realizamos la limpieza, llenando los nulos que encontramos. 
 
-![Descripción de la imagen](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/PAYMENT%20VS%20CHURN%20LABEL.png)
+![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/PAYMENT%20VS%20CHURN%20LABEL.png)
 
 
 ## Authors
