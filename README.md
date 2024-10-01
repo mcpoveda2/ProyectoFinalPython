@@ -12,7 +12,7 @@ Nuestra variable target era "Churn Label" con un tipo de dato booleano "Yes" or 
 
 Para el pre procesamiento de datos realizamos la limpieza, llenando los nulos que encontramos. 
 
-![Descripción de la imagen](./images/churn contrato.png)
+![Descripción de la imagen]("C:\Users\sharo\OneDrive - Universidad Politecnica Salesiana\Documentos\GitHub\ProyectoFinalPython\images\churn contrato.png")
 
 
 ## Authors
