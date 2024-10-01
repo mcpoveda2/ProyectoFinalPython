@@ -33,6 +33,19 @@ Estos hallazgos proporcionan insights clave para la toma de decisiones estratég
 ![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/churn%20contrato.png)
 ![Proporción de satisfacción vs tipo de internet](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/satisfaction%20vs%20internet%20type.png)
 
+## Feature Engineering
+Agrupamos las edades y el satisfaction score para crear nuevas variables categóricas.
+El score del 1 al 5, lo convertimos en alto, medio y bajo. 
+
+## Empezando el modelo
+
+Realizamos el data splitting y escalamos las variables para asegurar que todas estuvieran en la misma escala. Ya que observamos que nuestra variable objetivo presentaba un desbalance de clases, con un 73% de clientes que no hicieron churn frente a un 26% que sí lo hicieron.
+Inicialmente, incluimos la variable "Satisfaction Label" para entrenar el modelo, pero luego identificamos un posible target leakage. Esta variable parecía estar demasiado correlacionada con el resultado, absorbiendo gran parte de la importancia de los demás features. 
+Como resultado, el modelo mostraba un rendimiento aparentemente muy alto, con una precisión superior al 90%, lo que indicaba que los resultados podrían no ser realistas debido a este sesgo.
+
+En este repositorio encontrarán ambas versiones. 
+
+El algoritmo que decidimos utilizar fue el de Regresión Logística, ya que nos daba las mejores métricas de precisión y recall.
 
 ## Authors
 
