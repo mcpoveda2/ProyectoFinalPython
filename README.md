@@ -48,7 +48,6 @@ Como resultado, el modelo mostraba un rendimiento aparentemente muy alto, con un
 
 En este repositorio encontrarán ambas versiones. 
 
-![Categorizando Satisfaction Score](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/satisfaction%20label%20categorica.png)
 ![Categorizando Satisfaction Score](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/METRICAS.png) 
 El algoritmo que decidimos utilizar fue el de Regresión Logística, ya que nos daba las mejores métricas de precisión y recall, versus los otros algoritmos evaluados como KNN, decision tree y SVC. 
 
