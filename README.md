@@ -30,6 +30,8 @@ Los clientes con fibra óptica reportaron los niveles más bajos de satisfacció
 Estos hallazgos proporcionan insights clave para la toma de decisiones estratégicas en el negocio, permitiendo implementar acciones que mejoren la retención de clientes y optimicen la experiencia de servicio.
 
 ![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/PAYMENT%20VS%20CHURN%20LABEL.png)
+![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/churn%20contrato.png)
+![Proporción de satisfacción vs tipo de internet](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/satisfaction%20vs%20internet%20type.png)
 
 
 ## Authors
