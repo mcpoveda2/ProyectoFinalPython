@@ -1,12 +1,12 @@
 
 # CHURN RATE MODEL PREDICTION
 
-Este proyecto tiene como objetivo predecir qué clientes de una empresa de telecomunicaciones tienen mayor probabilidad de abandonar el servicio (churn). Utilizando técnicas de análisis de datos y modelado predictivo, buscamos identificar patrones y factores clave que influyen en la decisión de los clientes de dejar de ser usuarios, con el fin de implementar estrategias que mejoren la retención. 
+Este proyecto tiene como objetivo predecir qué clientes de una empresa de telecomunicaciones tienen mayor probabilidad de abandonar el servicio (churn). Tomando en cuenta que por cada porcentaje de mejora en la variable Churn podría aumentar en millones las ganancias de  las empresas, como el caso de la empresa AT&T. Utilizando técnicas de análisis de datos y modelado predictivo, buscamos identificar patrones y factores clave que influyen en la decisión de los clientes de dejar de ser usuarios, con el fin de implementar estrategias que mejoren la retención. 
 
 
 ## Exploración de datos
 
-El conjunto de datos utilizado contiene 7,000 registros con 50 columnas. Realizamos un proceso de limpieza de datos, eliminando las variables geográficas y algunas variables posteriores a los eventos de churn, que no aportaban valor para el análisis.
+El conjunto de datos utilizado contiene 7,000 registros con 50 columnas. Corresponden a América del Norte. Realizamos un proceso de limpieza de datos, eliminando las variables geográficas y algunas variables posteriores a los eventos de churn, que no aportaban valor para el análisis.
 
 Nuestra variable objetivo ("target") fue "Churn Label", la cual es de tipo booleano con valores "Yes" o "No", e indica si un cliente abandonará el servicio (churn).
 
@@ -27,7 +27,7 @@ Los contratos a largo plazo (2 años) retienen mejor a los clientes, mientras qu
 #### Satisfacción del cliente: 
 Los clientes con fibra óptica reportaron los niveles más bajos de satisfacción.
 ### Conclusiones
-Estos hallazgos proporcionan insights clave para la toma de decisiones estratégicas en el negocio, permitiendo implementar acciones que mejoren la retención de clientes y optimicen la experiencia de servicio.
+Estos hallazgos proporcionan insights clave para la toma de decisiones estratégicas en el negocio, permitiendo implementar acciones que mejoren la retención de clientes y optimicen la experiencia de servicio. En este caso el análisis de la variable Churn nos permite implementar en el negocio categorizar a los clientes de alto riesgo, para generar estrategias que hagan que no abandone el servicio, ya sea con seguimientos, encuestas y beneficios, entre otros. Así mismo se puede integrar en el CRM según la gestión de relaciones con clientes para actualizar automáticamente el puntaje de churn de cada cliente después de cada interacción o actualización de datos. De esta forma se ajustan las estrategias en función del retorno de la inversión (ROI).
 
 ![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/PAYMENT%20VS%20CHURN%20LABEL.png)
 ![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/churn%20contrato.png)
