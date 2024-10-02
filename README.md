@@ -29,9 +29,9 @@ Los clientes con fibra óptica reportaron los niveles más bajos de satisfacció
 ### Conclusiones
 Estos hallazgos proporcionan insights clave para la toma de decisiones estratégicas en el negocio, permitiendo implementar acciones que mejoren la retención de clientes y optimicen la experiencia de servicio. En este caso el análisis de la variable Churn nos permite implementar en el negocio categorizar a los clientes de alto riesgo, para generar estrategias que hagan que no abandone el servicio, ya sea con seguimientos, encuestas y beneficios, entre otros. Así mismo se puede integrar en el CRM según la gestión de relaciones con clientes para actualizar automáticamente el puntaje de churn de cada cliente después de cada interacción o actualización de datos. De esta forma se ajustan las estrategias en función del retorno de la inversión (ROI).
 
-![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/PAYMENT%20VS%20CHURN%20LABEL.png)
-![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/churn%20contrato.png)
-![Proporción de satisfacción vs tipo de internet](https://github.com/mcpoveda2/ProyectoFinalPython/blob/checkpoint_sharon/satisfaction%20vs%20internet%20type.png)
+![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/PAYMENT%20VS%20CHURN%20LABEL.png)
+![Proporción de clientes Churn por método de pago](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/churn%20contrato.png)
+![Proporción de satisfacción vs tipo de internet](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/satisfaction%20vs%20internet%20type.png)
 
 ## Feature Engineering
 Agrupamos las edades y el satisfaction score para crear nuevas variables categóricas.
@@ -42,13 +42,13 @@ El score del 1 al 5, lo convertimos en alto, medio y bajo.
 Realizamos el data splitting y escalamos las variables para asegurar que todas estuvieran en la misma escala. Ya que observamos que nuestra variable objetivo presentaba un desbalance de clases, con un 73% de clientes que no hicieron churn frente a un 26% que sí lo hicieron.
 Inicialmente, incluimos la variable "Satisfaction Label" para entrenar el modelo, pero luego identificamos un posible target leakage. Esta variable parecía estar demasiado correlacionada con el resultado, absorbiendo gran parte de la importancia de los demás features. 
 
-![Categorizando Satisfaction Score](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/satisfaction%20label%20categorica.png)
+![Categorizando Satisfaction Score](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/satisfaction%20label%20categorica.png)
 
 Como resultado, el modelo mostraba un rendimiento aparentemente muy alto, con una precisión superior al 90%, lo que indicaba que los resultados podrían no ser realistas debido a este sesgo.
 
 En este repositorio encontrarán ambas versiones. 
 
-![Categorizando Satisfaction Score](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/METRICAS.png) 
+![Categorizando Satisfaction Score](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/METRICAS.png) 
 El algoritmo que decidimos utilizar fue el de Regresión Logística, ya que nos daba las mejores métricas de precisión y recall, versus los otros algoritmos evaluados como KNN, decision tree y SVC. 
 
 ## Authors
@@ -57,6 +57,4 @@ El algoritmo que decidimos utilizar fue el de Regresión Logística, ya que nos 
 - [@MaSoraya](https://github.com/MaSoraya)
 - [@ajalca](https://github.com/ajalca)
 - [@sharonxnoboa](https://github.com/sharonxnoboa)
-- [@mary moran](https://github.com/mcpoveda2)
-
-
+- [@mary moran](https://github.com/Mar5555555)
