@@ -32,8 +32,6 @@ Los clientes con fibra óptica presentan la mayor tasa de churn.
 Los contratos a largo plazo (2 años) retienen mejor a los clientes, mientras que los contratos de mes a mes tienen una mayor proporción de churn.
 #### Satisfacción del cliente: 
 Los clientes con fibra óptica reportaron los niveles más bajos de satisfacción.
-### Conclusiones
-Estos hallazgos proporcionan insights clave para la toma de decisiones estratégicas en el negocio, permitiendo implementar acciones que mejoren la retención de clientes y optimicen la experiencia de servicio. En este caso el análisis de la variable Churn nos permite implementar en el negocio categorizar a los clientes de alto riesgo, para generar estrategias que hagan que no abandone el servicio, ya sea con seguimientos, encuestas y beneficios, entre otros. Así mismo se puede integrar en el CRM según la gestión de relaciones con clientes para actualizar automáticamente el puntaje de churn de cada cliente después de cada interacción o actualización de datos. De esta forma se ajustan las estrategias en función del retorno de la inversión (ROI).
 
 ![Datos](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/diapositivas/4_que_encontramos.png)
 ![Datos](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/diapositivas/5_que_encontramos.png)
@@ -90,12 +88,18 @@ Verdaderos positivos (TP): 232
 3. Monto total de reembolso: Los reembolsos totales que se han realizado a los clientes que han hecho churn.
 4. Pérdida de ingresos adicionales: Pérdidas relacionadas con cargos adicionales por uso de datos de los clientes que han hecho churn.
 5. Pérdida de los servicios de larga distancia: Pérdidas debido a los cargos de larga distancia de los clientes que hicieron churn.
+
 ![KPIs](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/KPIs.png)
 
 ## Estrategias
+Estos hallazgos proporcionan insights clave para la toma de decisiones estratégicas en el negocio, permitiendo implementar acciones que mejoren la retención de clientes y optimicen la experiencia de servicio. En este caso el análisis de la variable Churn nos permite implementar en el negocio categorizar a los clientes de alto riesgo, para generar estrategias que hagan que no abandone el servicio, ya sea con seguimientos, encuestas y beneficios, entre otros.
+
 ![Resultado](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/diapositivas/15_inspiran.png)
 ![Resultado](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/diapositivas/16_impulsando.png)
 ![Resultado](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/diapositivas/17_limites.png)
+
+Así mismo se puede integrar en el CRM según la gestión de relaciones con clientes para actualizar automáticamente el puntaje de churn de cada cliente después de cada interacción o actualización de datos. De esta forma se ajustan las estrategias en función del retorno de la inversión (ROI).
+
 ![Resultado](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/diapositivas/18_conclusiones_recomendaciones.png)
 ![Resultado](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/diapositivas/19_future.png)
 
