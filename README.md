@@ -51,6 +51,22 @@ En este repositorio encontrarán ambas versiones.
 ![Categorizando Satisfaction Score](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/METRICAS.png) 
 El algoritmo que decidimos utilizar fue el de Regresión Logística, ya que nos daba las mejores métricas de precisión y recall, versus los otros algoritmos evaluados como KNN, decision tree y SVC. 
 
+## Decisiones de negocio
+Con base en los valores de la matriz de confusión:
+
+Verdaderos negativos (TN): 595
+Falsos positivos (FP): 181
+Falsos negativos (FN): 48
+Verdaderos positivos (TP): 232
+![Matriz de confusion](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/matriz_regresion.png) 
+
+1. Riesgo mensual debido al churn: Son los ingresos mensuales que se pierden cuando los clientes hacen churn. Es el impacto mensual en términos de churn.
+2. Pérdida de gastos acumulados: Muestra el monto total de los cargos acumulados que se perderán debido al churn.
+3. Monto total de reembolso: Los reembolsos totales que se han realizado a los clientes que han hecho churn.
+4. Pérdida de ingresos adicionales: Pérdidas relacionadas con cargos adicionales por uso de datos de los clientes que han hecho churn.
+5. Pérdida de los servicios de larga distancia: Pérdidas debido a los cargos de larga distancia de los clientes que hicieron churn.
+![KPIs](https://github.com/mcpoveda2/ProyectoFinalPython/blob/main/images/KPIs.png)
+
 ## Authors
 
 - [@mcpoveda2](https://github.com/mcpoveda2)
